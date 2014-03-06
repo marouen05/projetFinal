@@ -1,0 +1,16 @@
+1) `pid`.CREATE DATABASE `pid` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+2)DROP TABLE IF EXISTS `pid`.`clients`;
+CREATE TABLE  `pid`.`clients` (
+  `id_Client` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nom` varchar(45) NOT NULL,
+  `prenom` varchar(45) NOT NULL,
+  `cin` int(10) unsigned NOT NULL,
+  `adresse` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `login` varchar(45) NOT NULL,
+  `mdp` int(10) unsigned NOT NULL,
+  `date_naiss` varchar(45) NOT NULL,
+  PRIMARY KEY (`id_Client`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+

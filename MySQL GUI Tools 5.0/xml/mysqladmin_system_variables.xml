@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<!-- Please do not use tab chars -->
+<variables_listing>
+ <group pos="1" name="General" caption_id="system_var_group_General">
+  <variable mysql_id="old_passwords" desc_id="system_var_old_passwords"/>
+  <variable mysql_id="version" desc_id="system_var_version"/>
+  <variable mysql_id="version_comment" desc_id="system_var_version_comment"/>
+  <variable mysql_id="version_compile_machine" desc_id="system_var_version_compile_machine"/>
+  <variable mysql_id="version_compile_os" desc_id="system_var_version_compile_os"/>
+  <variable mysql_id="language" desc_id="system_var_language"/>
+  <variable mysql_id="timezone" desc_id="system_var_timezone"/>
+  <variable mysql_id="protocol_version" desc_id="system_var_protocol_version"/>
+  <variable mysql_id="server_id" desc_id="system_var_server_id" editable="yes"/>
+  <variable mysql_id="port" desc_id="system_var_port"/>
+  <variable mysql_id="init_file" desc_id="system_var_init_file"/>
+  <subgroup pos="1" name="Features" caption_id="system_var_group_Features">
+   <variable mysql_id="have_innodb" desc_id="system_var_have_innodb"/>
+   <variable mysql_id="have_bdb" desc_id="system_var_have_bdb"/>
+   <variable mysql_id="have_compress" desc_id="system_var_have_compress"/>
+   <variable mysql_id="have_crypt" desc_id="system_var_have_crypt"/>
+   <variable mysql_id="have_isam" desc_id="system_var_have_isam"/>
+   <variable mysql_id="have_raid" desc_id="system_var_have_raid"/>
+   <variable mysql_id="have_symlink" desc_id="system_var_have_symlink"/>
+   <variable mysql_id="have_openssl" desc_id="system_var_have_openssl"/>
+   <variable mysql_id="have_query_cache" desc_id="system_var_have_query_cache"/>
+   <variable mysql_id="concurrent_insert" desc_id="system_var_concurrent_insert"/>
+   <variable mysql_id="named_pipe" desc_id="system_var_named_pipe" editable="yes"/>
+   <variable mysql_id="skip_networking" desc_id="system_var_skip_networking"/>
+   <variable mysql_id="low_priority_updates" desc_id="system_var_low_priority_updates" editable="yes"/>
+   <variable mysql_id="lower_case_table_names" desc_id="system_var_lower_case_table_names"/>
+   <variable mysql_id="large_files_support" desc_id="system_var_large_files_support"/>
+   <variable mysql_id="local_infile" desc_id="system_var_large_local_infile" editable="yes"/>
+   <variable mysql_id="new" desc_id="system_var_new"/>
+   <variable mysql_id="read_only" desc_id="system_var_read_only"/>
+  </subgroup>
+  <subgroup pos="2" name="Directories / Files" caption_id="system_var_group_DirectoriesFiles">
+   <variable mysql_id="basedir" desc_id="system_var_basedir"/>
+   <variable mysql_id="datadir" desc_id="system_var_datadir"/>
+   <variable mysql_id="tmpdir" desc_id="system_var_tmpdir"/>
+   <variable mysql_id="pid_file" desc_id="system_var_pid_file"/>
+   <variable mysql_id="log_error" desc_id="system_var_log_error"/>
+   <variable mysql_id="bdb_home" desc_id="system_var_bdb_home"/>
+   <variable mysql_id="bdb_logdir" desc_id="system_var_bdb_logdir"/>
+   <variable mysql_id="bdb_tmpdir" desc_id="system_var_bdb_tmpdir"/>
+   <variable mysql_id="innodb_data_home_dir" desc_id="system_var_innodb_data_home_dir"/>
+   <variable mysql_id="innodb_data_file_path" desc_id="system_var_innodb_data_file_path"/>
+   <variable mysql_id="innodb_log_arch_dir" desc_id="system_var_innodb_log_arch_dir"/>
+   <variable mysql_id="innodb_log_group_home_dir" desc_id="system_var_innodb_log_group_home_dir"/>
+   <variable mysql_id="open_files_limit" desc_id="system_var_open_files_limit"/>
+  </subgroup>
+  <subgroup pos="3" name="Logs" caption_id="system_var_group_Logs">
+   <variable mysql_id="log_error" desc_id="system_var_log_error"/>
+   <variable mysql_id="log" desc_id="system_var_log"/>
+   <variable mysql_id="log_update" desc_id="system_var_log_update"/>
+   <variable mysql_id="log_bin" desc_id="system_var_log_bin"/>
+   <variable mysql_id="log_slave_updates" desc_id="system_var_log_slave_updates"/>
+   <variable mysql_id="log_slow_queries" desc_id="system_var_log_slow_queries"/>
+   <variable mysql_id="rpl_recovery_rank" desc_id="system_var_rpl_recovery_rank" editable="yes"/>
+   <variable mysql_id="max_binlog_cache_size" desc_id="system_var_max_binlog_cache_size" editable="yes"/>
+   <variable mysql_id="max_binlog_size" desc_id="system_var_max_binlog_size" editable="yes"/>
+   <variable mysql_id="max_relay_log_size" desc_id="system_var_max_relay_log_size" editable="yes"/>
+   <variable mysql_id="innodb_log_arch_dir" desc_id="system_var_innodb_log_arch_dir"/>
+   <variable mysql_id="innodb_log_archive" desc_id="system_var_innodb_log_archive"/>
+   <variable mysql_id="innodb_log_buffer_size" desc_id="system_var_innodb_log_buffer_size"/>
+   <variable mysql_id="innodb_log_file_size" desc_id="system_var_innodb_log_file_size"/>
+   <variable mysql_id="innodb_log_files_in_group" desc_id="system_var_innodb_log_files_in_group"/>
+   <variable mysql_id="innodb_log_group_home_dir" desc_id="system_var_innodb_log_group_home_dir"/>
+   <variable mysql_id="bdb_logdir" desc_id="system_var_bdb_logdir"/>
+   <variable mysql_id="bdb_log_buffer_size" desc_id="system_var_bdb_log_buffer_size"/>
+   <variable mysql_id="log_warnings" desc_id="system_var_log_warnings"/>
+  </subgroup>
+  <subgroup pos="4" name="Performance" caption_id="system_var_group_Performance">
+   <variable mysql_id="long_query_time" desc_id="system_var_long_query_time" editable="yes"/>
+   <variable mysql_id="low_priority_updates" desc_id="system_var_low_priority_updates" editable="yes"/>
+   <variable mysql_id="thread_cache_size" desc_id="system_var_thread_cache_size" editable="yes"/>
+   <variable mysql_id="slow_launch_time" desc_id="system_var_slow_launch_time" editable="yes"/>
+   <variable mysql_id="delay_key_write" desc_id="system_var_delay_key_write" editable="yes"/>
+   <variable mysql_id="delayed_insert_limit" desc_id="system_var_delayed_insert_limit" editable="yes"/>
+   <variable mysql_id="delayed_insert_timeout" desc_id="system_var_delayed_insert_timeout" editable="yes"/>
+   <variable mysql_id="delayed_queue_size" desc_id="system_var_delayed_queue_size" editable="yes"/>
+   <variable mysql_id="flush" desc_id="system_var_flush" editable="yes"/>
+   <variable mysql_id="flush_time" desc_id="system_var_flush_time" editable="yes"/>
+   <variable mysql_id="max_delayed_threads" desc_id="system_var_max_delayed_threads" editable="yes"/>
+   <variable mysql_id="max_seeks_for_key" desc_id="system_var_max_seeks_for_key" editable="yes"/>
+   <variable mysql_id="max_write_lock_count" desc_id="system_var_max_write_lock_count" editable="yes"/>
+   <variable mysql_id="max_join_size" desc_id="system_var_max_join_size" editable="yes"/>
+   <variable mysql_id="max_sort_length" desc_id="system_var_max_sort_length" editable="yes"/>
+   <variable mysql_id="query_alloc_block_size" desc_id="system_var_query_alloc_block_size" editable="yes"/>
+   <variable mysql_id="query_prealloc_size" desc_id="system_var_query_prealloc_size" editable="yes"/>
+   <variable mysql_id="range_alloc_block_size" desc_id="system_var_range_alloc_block_size" editable="yes"/>
+  </subgroup>
+  <subgroup pos="5" name="Miscellaneous" caption_id="system_var_group_Miscellaneous">
+   <variable mysql_id="expire_logs_days" desc_id="system_var_expire_logs_days"/>
+   <variable mysql_id="max_error_count" desc_id="system_var_max_error_count"/>
+   <variable mysql_id="max_length_for_sort_data" desc_id="system_var_max_length_for_sort_data"/>
+   <variable mysql_id="preload_buffer_size" desc_id="system_var_preload_buffer_size"/>
+   <variable mysql_id="pseudo_thread_id" desc_id="system_var_pseudo_thread_id"/>
+   <variable mysql_id="relay_log_purge" desc_id="system_var_relay_log_purge"/>
+   <variable mysql_id="secure_auth" desc_id="system_var_secure_auth"/>
+   <variable mysql_id="shared_memory" desc_id="system_var_shared_memory"/>
+   <variable mysql_id="shared_memory_base_name" desc_id="system_var_shared_memory_base_name"/>
+   <variable mysql_id="storage_engine" desc_id="system_var_storage_engine"/>
+  </subgroup>
+ </group>
+ <group pos="2" name="Connections" caption_id="system_var_group_Connections">
+  <variable mysql_id="connect_timeout" desc_id="system_var_connect_timeout" editable="yes"/>
+  <variable mysql_id="interactive_timeout" desc_id="system_var_interactive_timeout" editable="yes"/>
+  <variable mysql_id="wait_timeout" desc_id="system_var_wait_timeout" editable="yes"/>
+  <variable mysql_id="back_log" desc_id="system_var_back_log"/>
+  <variable mysql_id="max_connections" desc_id="system_var_max_connections" editable="yes"/>
+  <variable mysql_id="max_connect_errors" desc_id="system_var_max_connect_errors" editable="yes"/>
+  <variable mysql_id="max_user_connections" desc_id="system_var_max_user_connections" editable="yes"/>
+  <subgroup pos="1" name="Networking" caption_id="system_var_group_Networking">
+   <variable mysql_id="skip_networking" desc_id="system_var_skip_networking"/>
+   <variable mysql_id="named_pipe" desc_id="system_var_named_pipe"/>
+   <variable mysql_id="net_read_timeout" desc_id="system_var_net_read_timeout" editable="yes"/>
+   <variable mysql_id="net_retry_count" desc_id="system_var_net_retry_count" editable="yes"/>
+   <variable mysql_id="net_write_timeout" desc_id="system_var_net_write_timeout" editable="yes"/>
+   <variable mysql_id="connect_timeout" desc_id="system_var_connect_timeout" editable="yes"/>
+   <variable mysql_id="wait_timeout" desc_id="system_var_wait_timeout" editable="yes"/>
+   <variable mysql_id="slave_net_timeout" desc_id="system_var_slave_net_timeout" editable="yes"/>
+   <variable mysql_id="max_allowed_packet" desc_id="system_var_max_allowed_packet" editable="yes"/>
+  </subgroup>
+  <subgroup pos="2" name="Security" caption_id="system_var_group_Networking">
+   <variable mysql_id="skip_show_database" desc_id="system_var_skip_show_database"/>
+   <variable mysql_id="skip_networking" desc_id="system_var_skip_networking"/>
+  </subgroup>     
+ </group>
+ <group pos="3" name="SQL" caption_id="system_var_group_SQL">
+  <variable mysql_id="init_connect" desc_id="system_var_init_connect"/>
+  <variable mysql_id="init_slave" desc_id="system_var_init_slave"/>
+  <variable mysql_id="log_warnings" desc_id="system_var_log_warnings"/>
+  <variable mysql_id="lower_case_table_names" desc_id="system_var_lower_case_table_names"/>
+  <variable mysql_id="tx_isolation" desc_id="system_var_tx_isolation" editable="yes"/>
+  <variable mysql_id="transaction_alloc_block_size" desc_id="system_var_transaction_alloc_block_size"/>
+  <variable mysql_id="transaction_prealloc_size" desc_id="system_var_transaction_prealloc_size"/>
+  <variable mysql_id="sql_mode" desc_id="system_var_sql_mode"/>
+  <variable mysql_id="skip_external_locking" desc_id="system_var_skip_external_locking"/>
+  <variable mysql_id="max_sort_length" desc_id="system_var_max_sort_length" editable="yes"/>
+  <subgroup pos="1" name="Charsets" caption_id="system_var_group_Charsets">
+   <variable mysql_id="character_set" desc_id="system_var_character_set"/>
+   <variable mysql_id="character_sets" desc_id="system_var_character_sets"/>
+   <variable mysql_id="convert_character_set" desc_id="system_var_convert_character_set" editable="yes"/>
+   <variable mysql_id="character_set_client" desc_id="system_var_character_set_client"/>
+   <variable mysql_id="character_set_connection" desc_id="system_var_character_set_connection"/>
+   <variable mysql_id="character_set_database" desc_id="system_var_character_set_database"/>
+   <variable mysql_id="character_set_results" desc_id="system_var_character_set_results"/>
+   <variable mysql_id="character_set_server" desc_id="system_var_character_set_server"/>
+   <variable mysql_id="character_set_system" desc_id="system_var_character_set_system"/>
+   <variable mysql_id="character-sets-dir" desc_id="system_var_character-sets-dir"/>
+   <variable mysql_id="collation_connection" desc_id="system_var_collation_connection"/>
+   <variable mysql_id="collation_database" desc_id="system_var_collation_database"/>
+   <variable mysql_id="collation_server" desc_id="system_var_collation_server"/>
+  </subgroup>
+  <subgroup pos="2" name="Formats" caption_id="system_var_group_Formats">
+   <variable mysql_id="default_week_format" desc_id="system_var_log_default_week_format"/>
+   <variable mysql_id="date_format" desc_id="system_var_date_format"/>
+   <variable mysql_id="datetime_format" desc_id="system_var_datetime_format"/>
+   <variable mysql_id="time_format" desc_id="system_var_time_format"/>
+  </subgroup>
+  <subgroup pos="3" name="Full Text Search" caption_id="system_var_group_Full_Text_Search">
+   <variable mysql_id="ft_boolean_syntax" desc_id="system_var_ft_boolean_syntax"/>
+   <variable mysql_id="ft_min_word_len" desc_id="system_var_ft_min_word_len"/>
+   <variable mysql_id="ft_max_word_len" desc_id="system_var_ft_max_word_len"/>
+   <variable mysql_id="ft_max_word_len_for_sort" desc_id="system_var_ft_max_word_len_for_sort"/>
+   <variable mysql_id="ft_query_expansion_limit" desc_id="system_var_ft_query_expansion_limit"/>
+   <variable mysql_id="ft_stopword_file" desc_id="system_var_ft_stopword_file"/>
+  </subgroup>
+ </group>
+ <group pos="4" name="Memory" caption_id="system_var_group_Memory">
+  <variable mysql_id="tmp_table_size" desc_id="system_var_tmp_table_size" editable="yes"/>
+  <variable mysql_id="max_tmp_tables" desc_id="system_var_max_tmp_tables" editable="yes"/>
+  <variable mysql_id="thread_stack" desc_id="system_var_thread_stack"/>
+  <variable mysql_id="max_heap_table_size" desc_id="system_var_max_heap_table_size" editable="yes"/>
+  <subgroup pos="1" name="Buffers" caption_id="system_var_group_Buffers">
+   <variable mysql_id="bulk_insert_buffer_size" desc_id="system_var_bulk_insert_buffer_size" editable="yes"/>
+   <variable mysql_id="join_buffer_size" desc_id="system_var_join_buffer_size" editable="yes"/>
+   <variable mysql_id="key_buffer_size" desc_id="system_var_key_buffer_size" editable="yes"/>
+   <variable mysql_id="read_buffer_size" desc_id="system_var_read_buffer_size" editable="yes"/>
+   <variable mysql_id="net_buffer_length" desc_id="system_var_net_buffer_length" editable="yes"/>
+   <variable mysql_id="read_rnd_buffer_size" desc_id="system_var_read_rnd_buffer_size" editable="yes"/>
+   <variable mysql_id="sort_buffer_size" desc_id="system_var_sort_buffer_size" editable="yes"/>
+   <variable mysql_id="myisam_sort_buffer_size" desc_id="system_var_myisam_sort_buffer_size" editable="yes"/>
+   <variable mysql_id="innodb_buffer_pool_size" desc_id="system_var_innodb_buffer_pool_size"/>
+   <variable mysql_id="innodb_log_buffer_size" desc_id="system_var_innodb_log_buffer_size"/>
+   <variable mysql_id="innodb_additional_mem_pool_size" desc_id="system_var_innodb_additional_mem_pool_size"/>
+   <variable mysql_id="innodb_buffer_pool_awe_mem_mb" desc_id="system_var_innodb_buffer_pool_awe_mem_mb"/>
+   <variable mysql_id="bdb_log_buffer_size" desc_id="system_var_bdb_log_buffer_size"/>
+  </subgroup>
+  <subgroup pos="2" name="Caches" caption_id="system_var_group_Caches">
+   <variable mysql_id="bdb_cache_size" desc_id="system_var_bdb_cache_size"/>
+   <variable mysql_id="binlog_cache_size" desc_id="system_var_binlog_cache_size" editable="yes"/>
+   <variable mysql_id="key_cache_age_threshold" desc_id="system_var_key_cache_age_threshold"/>
+   <variable mysql_id="key_cache_block_size" desc_id="system_var_key_cache_block_size"/>
+   <variable mysql_id="key_cache_division_limit" desc_id="system_var_key_cache_division_limit"/>
+   <variable mysql_id="query_cache_limit" desc_id="system_var_query_cache_limit" editable="yes"/>
+   <variable mysql_id="query_cache_min_res_unit" desc_id="system_var_query_cache_min_res_unit" editable="yes"/>
+   <variable mysql_id="query_cache_size" desc_id="system_var_query_cache_size" editable="yes"/>
+   <variable mysql_id="query_cache_type" desc_id="system_var_query_cache_type" editable="yes"/>
+   <variable mysql_id="table_cache" desc_id="system_var_table_cache" editable="yes"/>
+  </subgroup>
+ </group>
+ <group pos="5" name="Table Types" caption_id="system_var_group_Table_Types">
+  <variable mysql_id="table_type" desc_id="system_var_table_type" editable="yes"/>
+  <subgroup pos="1" name="InnoDB" caption_id="system_var_group_InnoDB">
+   <variable mysql_id="have_innodb" desc_id="system_var_have_innodb"/>
+   <variable mysql_id="innodb_additional_mem_pool_size" desc_id="system_var_innodb_additional_mem_pool_size"/>
+   <variable mysql_id="innodb_buffer_pool_awe_mem_mb" desc_id="system_var_innodb_buffer_pool_awe_mem_mb"/>
+   <variable mysql_id="innodb_buffer_pool_size" desc_id="system_var_innodb_buffer_pool_size"/>
+   <variable mysql_id="innodb_data_file_path" desc_id="system_var_innodb_data_file_path"/>
+   <variable mysql_id="innodb_data_home_dir" desc_id="system_var_innodb_data_home_dir"/>
+   <variable mysql_id="innodb_file_io_threads" desc_id="system_var_innodb_file_io_threads"/>
+   <variable mysql_id="innodb_file_per_table" desc_id="system_var_innodb_file_per_table"/>
+   <variable mysql_id="innodb_force_recovery" desc_id="system_var_innodb_force_recovery"/>
+   <variable mysql_id="innodb_thread_concurrency" desc_id="system_var_innodb_thread_concurrency"/>
+   <variable mysql_id="innodb_flush_log_at_trx_commit" desc_id="system_var_innodb_flush_log_at_trx_commit"/>
+   <variable mysql_id="innodb_fast_shutdown" desc_id="system_var_innodb_fast_shutdown"/>
+   <variable mysql_id="innodb_flush_method" desc_id="system_var_innodb_flush_method"/>
+   <variable mysql_id="innodb_lock_wait_timeout" desc_id="system_var_innodb_lock_wait_timeout"/>
+   <variable mysql_id="innodb_log_arch_dir" desc_id="system_var_innodb_log_arch_dir"/>
+   <variable mysql_id="innodb_log_archive" desc_id="system_var_innodb_log_archive"/>
+   <variable mysql_id="innodb_log_buffer_size" desc_id="system_var_innodb_log_buffer_size"/>
+   <variable mysql_id="innodb_log_file_size" desc_id="system_var_innodb_log_file_size"/>
+   <variable mysql_id="innodb_log_files_in_group" desc_id="system_var_innodb_log_files_in_group"/>
+   <variable mysql_id="innodb_log_group_home_dir" desc_id="system_var_innodb_log_group_home_dir"/>
+   <variable mysql_id="innodb_mirrored_log_groups" desc_id="system_var_innodb_mirrored_log_groups"/>
+   <variable mysql_id="innodb_max_dirty_pages_pct" desc_id="system_var_innodb_max_dirty_pages_pct"/>
+   <variable mysql_id="innodb_open_files" desc_id="system_var_innodb_open_files"/>
+  </subgroup>
+  <subgroup pos="2" name="BDB" caption_id="system_var_group_BDB">
+   <variable mysql_id="have_bdb" desc_id="system_var_have_bdb"/>
+   <variable mysql_id="bdb_cache_size" desc_id="system_var_bdb_cache_size"/>
+   <variable mysql_id="bdb_log_buffer_size" desc_id="system_var_bdb_log_buffer_size"/>
+   <variable mysql_id="bdb_home" desc_id="system_var_bdb_home"/>
+   <variable mysql_id="bdb_max_lock" desc_id="system_var_bdb_max_lock"/>
+   <variable mysql_id="bdb_logdir" desc_id="system_var_bdb_logdir"/>
+   <variable mysql_id="bdb_shared_data" desc_id="system_var_bdb_shared_data"/>
+   <variable mysql_id="bdb_tmpdirk" desc_id="system_var_bdb_tmpdir"/>
+   <variable mysql_id="bdb_version" desc_id="system_var_bdb_version"/>
+   <variable mysql_id="version_bdb" desc_id="system_var_version_bdb"/>
+  </subgroup>
+  <subgroup pos="3" name="MyIsam" caption_id="system_var_group_MyIsam">
+   <variable mysql_id="myisam_max_extra_sort_file_size" desc_id="system_var_myisam_max_extra_sort_file_size" editable="yes"/>
+   <variable mysql_id="myisam_max_sort_file_size" desc_id="system_var_myisam_max_sort_file_size" editable="yes"/>
+   <variable mysql_id="myisam_repair_threads" desc_id="system_var_myisam_repair_threads" editable="yes"/>
+   <variable mysql_id="myisam_recover_options" desc_id="system_var_myisam_recover_options"/>
+  </subgroup>
+ </group>
+</variables_listing>

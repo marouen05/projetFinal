@@ -1,0 +1,25 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="795" measuredH="573" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="513" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="554" y="262" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%20%0AApprenez%20%E0%20comprendre%20votre%0A%20chien%20et%20%E0%20mieux%20communiquer%20%0Aavec%20lui.%20Il%20est%20important%20de%20bien%0A%20interpr%E9ter%20le%20langage%20du%20chien%2C%0A%20son%20comportement%20et%20postures.%0A%20D%E9couvrez%20les%20diff%E9rents%20types%0A%20de%20communication%20du%20chien%2C%20%0Acomment%20%E9tablir%20une%20relation%20%0A%E9quilibr%E9e%20et%20g%E9rer%20les%20conflits%20%0Aentre%20chiens%20ou%20avec%20le%20ma%EEtre.</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::VSplitter" x="550" y="452" w="208" h="-1" measuredW="100" measuredH="11" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="588" y="226" w="132" h="-1" measuredW="132" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Comprendre%20son%20chien</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="626" y="149" w="57" h="55" measuredW="168" measuredH="168" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./chien.png</src>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

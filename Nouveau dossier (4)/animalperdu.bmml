@@ -1,0 +1,31 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="795" measuredH="573" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="513" y="0" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhoneMenu" x="547" y="325" w="-1" h="-1" measuredW="215" measuredH="39" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%09ajouter%20photos</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Menu" x="567" y="163" w="174" h="-1" measuredW="150" measuredH="109" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Espece%20D%27animal%0A---%0ARace%0A%3D%0ACouleur%0A%3D%0AEtc</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="573" y="413" w="-1" h="-1" measuredW="162" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>inserer%20votre%20deposition</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Link" x="639" y="455" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>declaration%26bm%3Bdeclaration.bmml%26bm%3Bdeclaration.bmml%26bm%3Bdeclaration.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22126%2C455%2C162%2C474%22%20href%3D%22declaration.bmml%22%20alt%3D%22declaration%22%20id%3D%224%22/%3E</map>
+        <text>retour</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,28 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="799" measuredH="575" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="517" y="2" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="613" y="144" w="82" h="85" measuredW="88" measuredH="88" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/chien.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::CoverFlow" x="551" y="229" w="207" h="77" measuredW="493" measuredH="198" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Paragraph" x="557" y="347" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Link" x="636" y="420" w="-1" h="-1" measuredW="36" measuredH="19" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>adopterannuaire%26bm%3Badopterannuaire.bmml%26bm%3Badopterannuaire.bmml%26bm%3Badopterannuaire.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22119%2C418%2C155%2C437%22%20href%3D%22adopterannuaire.bmml%22%20alt%3D%22adopterannuaire%22%20id%3D%226%22/%3E</map>
+        <text>retour</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Link" x="636" y="386" w="-1" h="-1" measuredW="126" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>proceder%20%E0%20l%27adoption</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

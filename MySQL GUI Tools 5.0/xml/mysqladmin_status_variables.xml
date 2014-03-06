@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!-- Please do not use tab chars -->
+<variables_listing>
+ <group pos="1" name="General" caption_id="status_var_group_General">
+  <variable mysql_id="Uptime" desc_id="status_var_Uptime"/>
+  <variable mysql_id="Open_tables" desc_id="status_var_Open_tables"/>
+  <variable mysql_id="Open_files" desc_id="status_var_Open_files"/>
+  <variable mysql_id="Open_streams" desc_id="status_var_Open_streams"/>
+  <variable mysql_id="Opened_tables" desc_id="status_var_Opened_tables"/>
+  <variable mysql_id="Questions" desc_id="status_var_Questions"/>
+  <subgroup pos="1" name="Threads" caption_id="status_var_group_Threads">
+   <variable mysql_id="Threads_cached" desc_id="status_var_Threads_cached"/>
+   <variable mysql_id="Threads_created" desc_id="status_var_Threads_created"/>
+   <variable mysql_id="Threads_connected" desc_id="status_var_Threads_connected"/>
+   <variable mysql_id="Threads_running" desc_id="status_var_Threads_running"/>
+  </subgroup><subgroup pos="2" name="Temporary" caption_id="status_var_group_Temporary">
+   <variable mysql_id="Created_tmp_disk_tables" desc_id="status_var_Created_tmp_disk_tables"/>
+   <variable mysql_id="Created_tmp_tables" desc_id="status_var_Created_tmp_tables"/>
+   <variable mysql_id="Created_tmp_files" desc_id="status_var_Created_tmp_files"/>
+  </subgroup>
+ </group>
+ <group pos="2" name="Performance" caption_id="status_var_group_Connections">
+  <variable mysql_id="Slow_launch_threads" desc_id="status_var_Slow_launch_threads"/>
+  <variable mysql_id="Slow_queries" desc_id="status_var_Slow_queries"/>
+  <subgroup pos="1" name="Query cache" caption_id="status_var_group_Query_cache">
+   <variable mysql_id="Qcache_queries_in_cache" desc_id="status_var_Qcache_queries_in_cache"/>
+   <variable mysql_id="Qcache_inserts" desc_id="status_var_Qcache_inserts"/>
+   <variable mysql_id="Qcache_hits" desc_id="status_var_Qcache_hits"/>
+   <variable mysql_id="Qcache_lowmem_prunes" desc_id="status_var_Qcache_lowmem_prunes"/>
+   <variable mysql_id="Qcache_not_cached" desc_id="status_var_Qcache_not_cached"/>
+   <variable mysql_id="Qcache_free_memory" desc_id="status_var_Qcache_free_memory"/>
+   <variable mysql_id="Qcache_free_blocks" desc_id="status_var_Qcache_free_blocks"/>
+   <variable mysql_id="Qcache_total_blocks" desc_id="status_var_Qcache_total_blocks"/>
+  </subgroup>
+  <subgroup pos="2" name="Keys" caption_id="status_var_group_Keys">
+   <variable mysql_id="Key_blocks_not_flushed" desc_id="status_var_Key_blocks_not_flushed"/>
+   <variable mysql_id="Key_blocks_used" desc_id="status_var_Key_blocks_used"/>
+   <variable mysql_id="Key_read_requests" desc_id="status_var_Key_read_requests"/>
+   <variable mysql_id="Key_reads" desc_id="status_var_Key_reads"/>
+   <variable mysql_id="Key_write_requests" desc_id="status_var_Key_write_requests"/>
+   <variable mysql_id="Key_writes" desc_id="status_var_Key_writes"/>
+   <variable mysql_id="Not_flushed_key_blocks" desc_id="status_var_Not_flushed_key_blocks"/>
+  </subgroup>
+  <subgroup pos="3" name="Sort" caption_id="status_var_group_Sort">
+   <variable mysql_id="Sort_merge_passes" desc_id="status_var_Sort_merge_passes"/>
+   <variable mysql_id="Sort_range" desc_id="status_var_Sort_range"/>
+   <variable mysql_id="Sort_rows" desc_id="status_var_Sort_rows"/>
+   <variable mysql_id="Sort_scan" desc_id="status_var_Sort_scan"/>
+  </subgroup>
+  <subgroup pos="4" name="Delayed" caption_id="status_var_group_Delayed">
+   <variable mysql_id="Delayed_insert_threads" desc_id="status_var_Delayed_insert_threads"/>
+   <variable mysql_id="Delayed_writes" desc_id="status_var_Delayed_writes"/>
+   <variable mysql_id="Delayed_errors" desc_id="status_var_Delayed_errors"/>
+   <variable mysql_id="Not_flushed_delayed_rows" desc_id="status_var_Not_flushed_delayed_rows"/>
+  </subgroup>
+  <subgroup pos="5" name="Selects" caption_id="status_var_group_Selects">
+   <variable mysql_id="Select_full_join" desc_id="status_var_Select_full_join"/>
+   <variable mysql_id="Select_full_range_join" desc_id="status_var_Select_full_range_join"/>
+   <variable mysql_id="Select_range" desc_id="status_var_Select_range"/>
+   <variable mysql_id="Select_range_check" desc_id="status_var_Select_range_check"/>
+   <variable mysql_id="Select_scan" desc_id="status_var_Select_scan"/>
+  </subgroup>
+  <subgroup pos="6" name="Locks" caption_id="status_var_group_Locks">
+   <variable mysql_id="Table_locks_immediate" desc_id="status_var_Table_locks_immediate"/>
+   <variable mysql_id="Table_locks_waited" desc_id="status_var_Table_locks_waited"/>
+  </subgroup>
+  <subgroup pos="7" name="InnoDB" caption_id="status_var_group_InnoDB">
+   <variable mysql_id="innodb_buffer_free_buffers" desc_id="status_var_innodb_buffer_free_buffers"/>
+   <variable mysql_id="innodb_buffer_pages_created" desc_id="status_var_innodb_buffer_pages_created"/>
+   <variable mysql_id="innodb_buffer_pages_read" desc_id="status_var_innodb_buffer_pages_read"/>
+   <variable mysql_id="innodb_buffer_pages_written" desc_id="status_var_innodb_buffer_pages_written"/>
+   <variable mysql_id="innodb_buffer_pool_size" desc_id="status_var_innodb_buffer_pool_size"/>
+  </subgroup>
+ </group>
+ <group pos="3" name="Networking" caption_id="status_var_group_Networking">
+  <variable mysql_id="Aborted_clients" desc_id="status_var_Aborted_clients"/>
+  <variable mysql_id="Aborted_connects" desc_id="status_var_Aborted_connects"/>
+  <variable mysql_id="Connections" desc_id="status_var_Connections"/>
+  <variable mysql_id="Max_used_connections" desc_id="status_var_Max_used_connections"/>
+  <subgroup pos="1" name="Traffic" caption_id="status_var_group_Traffic">
+   <variable mysql_id="Bytes_received" desc_id="status_var_Bytes_received"/>
+   <variable mysql_id="Bytes_sent" desc_id="status_var_Bytes_sent"/>
+  </subgroup>
+  <subgroup pos="2" name="Replication" caption_id="status_var_group_Replication">
+   <variable mysql_id="Rpl_status" desc_id="status_var_Rpl_status"/>
+   <variable mysql_id="Slave_open_temp_tables" desc_id="status_var_Slave_open_temp_tables"/>
+   <variable mysql_id="Slave_running" desc_id="status_var_Slave_running"/>
+  </subgroup>
+ </group>
+ <group pos="4" name="Commands executed" caption_id="status_var_group_Commands_executed">
+  <variable mysql_id="Flush_commands" desc_id="status_var_Flush_commands"/>
+  <variable mysql_id="Com_admin_commands" desc_id="status_var_Com_admin_commands"/>
+  <variable mysql_id="Com_change_db" desc_id="status_var_Com_change_db"/>
+  <variable mysql_id="Com_drop_user" desc_id="status_var_Com_drop_user"/>
+  <variable mysql_id="Com_flush" desc_id="status_var_Com_flush"/>
+  <variable mysql_id="Com_grant" desc_id="status_var_Com_grant"/>
+  <variable mysql_id="Com_ha_close" desc_id="status_var_Com_ha_close"/>
+  <variable mysql_id="Com_ha_open" desc_id="status_var_Com_ha_open"/>
+  <variable mysql_id="Com_ha_read" desc_id="status_var_Com_ha_read"/>
+  <variable mysql_id="Com_help" desc_id="status_var_Com_help"/>
+  <variable mysql_id="Com_kill" desc_id="status_var_Com_kill"/>
+  <variable mysql_id="Com_lock_tables" desc_id="status_var_Com_lock_tables"/>
+  <variable mysql_id="Com_preload_keys" desc_id="status_var_Com_preload_keys"/>
+  <variable mysql_id="Com_purge" desc_id="status_var_Com_purge"/>
+  <variable mysql_id="Com_purge_before_date" desc_id="status_var_Com_purge_before_date"/>
+  <variable mysql_id="Com_reset" desc_id="status_var_Com_reset"/>
+  <variable mysql_id="Com_revoke" desc_id="status_var_Com_revoke"/>
+  <variable mysql_id="Com_revoke_all" desc_id="status_var_Com_revoke_all"/>
+  <variable mysql_id="Com_savepoint" desc_id="status_var_Com_savepoint"/>
+  <variable mysql_id="Com_set_option" desc_id="status_var_Com_set_option"/>
+  <variable mysql_id="Com_unlock_tables" desc_id="status_var_Com_unlock_tables"/>
+  <subgroup pos="1" name="DDL" caption_id="status_var_group_DDL">
+   <variable mysql_id="Com_truncate" desc_id="status_var_Com_truncate"/>
+   <variable mysql_id="Com_restore_table" desc_id="status_var_Com_restore_table"/>
+   <variable mysql_id="Com_repair" desc_id="status_var_Com_repair"/>
+   <variable mysql_id="Com_optimize" desc_id="status_var_Com_optimize"/>
+   <variable mysql_id="Com_check" desc_id="status_var_Com_check"/>
+   <variable mysql_id="Com_checksum" desc_id="status_var_Com_checksum"/>
+   <variable mysql_id="Com_analyze" desc_id="status_var_Com_analyze"/>
+   <variable mysql_id="Com_backup_table" desc_id="status_var_Com_backup_table"/>
+   <variable mysql_id="Com_alter_db" desc_id="status_var_Com_alter_db"/>
+   <variable mysql_id="Com_alter_table" desc_id="status_var_Com_alter_table"/>
+   <variable mysql_id="Com_create_db" desc_id="status_var_Com_create_db"/>
+   <variable mysql_id="Com_create_function" desc_id="status_var_Com_create_function"/>
+   <variable mysql_id="Com_create_index" desc_id="status_var_Com_create_index"/>
+   <variable mysql_id="Com_create_table" desc_id="status_var_Com_create_table"/>
+   <variable mysql_id="Com_drop_db" desc_id="status_var_Com_drop_db"/>
+   <variable mysql_id="Com_drop_function" desc_id="status_var_Com_drop_function"/>
+   <variable mysql_id="Com_drop_index" desc_id="status_var_Com_drop_index"/>
+   <variable mysql_id="Com_drop_table" desc_id="status_var_Com_drop_table"/>
+   <variable mysql_id="Com_rename_table" desc_id="status_var_Com_rename_table"/>
+  </subgroup>
+  <subgroup pos="2" name="DML" caption_id="status_var_group_DML">
+   <variable mysql_id="Com_do" desc_id="status_var_Com_do"/>
+   <variable mysql_id="Com_begin" desc_id="status_var_Com_begin"/>
+   <variable mysql_id="Com_commit" desc_id="status_var_Com_commit"/>
+   <variable mysql_id="Com_delete" desc_id="status_var_Com_delete"/>
+   <variable mysql_id="Com_delete_multi" desc_id="status_var_Com_delete_multi"/>
+   <variable mysql_id="Com_insert" desc_id="status_var_Com_insert"/>
+   <variable mysql_id="Com_insert_select" desc_id="status_var_Com_insert_select"/>
+   <variable mysql_id="Com_load" desc_id="status_var_Com_load"/>
+   <variable mysql_id="Com_replace" desc_id="status_var_Com_replace"/>
+   <variable mysql_id="Com_replace_select" desc_id="status_var_Com_replace_select"/>
+   <variable mysql_id="Com_rollback" desc_id="status_var_Com_rollback"/>
+   <variable mysql_id="Com_select" desc_id="status_var_Com_select"/>
+   <variable mysql_id="Com_update" desc_id="status_var_Com_update"/>
+   <variable mysql_id="Com_update_multi" desc_id="status_var_Com_update_multi"/>
+  </subgroup>
+  <subgroup pos="3" name="Show" caption_id="status_var_group_Show">
+   <variable mysql_id="Com_show_binlog_events" desc_id="status_var_Com_show_binlog_events"/>
+   <variable mysql_id="Com_show_binlogs" desc_id="status_var_Com_show_binlogs"/>
+   <variable mysql_id="Com_show_charsets" desc_id="status_var_Com_show_charsets"/>
+   <variable mysql_id="Com_show_collations" desc_id="status_var_Com_show_collations"/>
+   <variable mysql_id="Com_show_column_types" desc_id="status_var_Com_show_column_types"/>
+   <variable mysql_id="Com_show_create" desc_id="status_var_Com_show_create"/>
+   <variable mysql_id="Com_show_create_db" desc_id="status_var_Com_show_create_db"/>
+   <variable mysql_id="Com_show_create_table" desc_id="status_var_Com_show_create_table"/>
+   <variable mysql_id="Com_show_databases" desc_id="status_var_Com_show_databases"/>
+   <variable mysql_id="Com_show_errors" desc_id="status_var_Com_show_errors"/>
+   <variable mysql_id="Com_show_fields" desc_id="status_var_Com_show_fields"/>
+   <variable mysql_id="Com_show_grants" desc_id="status_var_Com_show_grants"/>
+   <variable mysql_id="Com_show_keys" desc_id="status_var_Com_show_keys"/>
+   <variable mysql_id="Com_show_logs" desc_id="status_var_Com_show_logs"/>
+   <variable mysql_id="Com_show_master_status" desc_id="status_var_Com_show_master_status"/>
+   <variable mysql_id="Com_show_new_master" desc_id="status_var_Com_show_new_master"/>
+   <variable mysql_id="Com_show_open_tables" desc_id="status_var_Com_show_open_tables"/>
+   <variable mysql_id="Com_show_privileges" desc_id="status_var_Com_show_privileges"/>
+   <variable mysql_id="Com_show_processlist" desc_id="status_var_Com_show_processlist"/>
+   <variable mysql_id="Com_show_slave_hosts" desc_id="status_var_Com_show_slave_hosts"/>
+   <variable mysql_id="Com_show_slave_status" desc_id="status_var_Com_show_slave_status"/>
+   <variable mysql_id="Com_show_status" desc_id="status_var_Com_show_status"/>
+   <variable mysql_id="Com_show_storage_engines" desc_id="status_var_Com_show_storage_engines"/>
+   <variable mysql_id="Com_show_innodb_status" desc_id="status_var_Com_show_innodb_status"/>
+   <variable mysql_id="Com_show_tables" desc_id="status_var_Com_show_tables"/>
+   <variable mysql_id="Com_show_variables" desc_id="status_var_Com_show_variables"/>
+   <variable mysql_id="Com_show_warnings" desc_id="status_var_Com_show_warnings"/>
+  </subgroup>
+  <subgroup pos="4" name="Replication" caption_id="status_var_group_DDL">
+   <variable mysql_id="Com_slave_start" desc_id="status_var_Com_slave_start"/>
+   <variable mysql_id="Com_slave_stop" desc_id="status_var_Com_slave_stop"/>
+   <variable mysql_id="Com_change_master" desc_id="status_var_Com_change_master"/>
+   <variable mysql_id="Com_load_master_data" desc_id="status_var_Com_load_master_data"/>
+   <variable mysql_id="Com_load_master_table" desc_id="status_var_Com_load_master_table"/>
+  </subgroup>
+ </group>
+ <group pos="5" name="Miscellaneous" caption_id="status_var_group_Miscellaneous">
+  <subgroup pos="1" name="Handler" caption_id="status_var_group_Handler">
+   <variable mysql_id="Handler_commit" desc_id="status_var_Handler_commit"/>
+   <variable mysql_id="Handler_delete" desc_id="status_var_Handler_delete"/>
+   <variable mysql_id="Handler_read_first" desc_id="status_var_Handler_read_first"/>
+   <variable mysql_id="Handler_read_key" desc_id="status_var_Handler_read_key"/>
+   <variable mysql_id="Handler_read_next" desc_id="status_var_Handler_read_next"/>
+   <variable mysql_id="Handler_read_prev" desc_id="status_var_Handler_read_prev"/>
+   <variable mysql_id="Handler_read_rnd" desc_id="status_var_Handler_read_rnd"/>
+   <variable mysql_id="Handler_read_rnd_next" desc_id="status_var_Handler_read_rnd_next"/>
+   <variable mysql_id="Handler_rollback" desc_id="status_var_Handler_rollback"/>
+   <variable mysql_id="Handler_update" desc_id="status_var_Handler_update"/>
+   <variable mysql_id="Handler_write" desc_id="status_var_Handler_write"/>
+  </subgroup>
+ </group>
+</variables_listing>

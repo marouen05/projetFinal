@@ -1,0 +1,3 @@
+daily Scrum
+pv des recontres
+burndown
